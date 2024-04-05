@@ -85,15 +85,6 @@ footer{
     text-align: center;
 }
 
-#map {
-    height: 1000px;
-    width: 100%;
-}
-
-
-
-
-/* Styling for index page */
 #Skills ol{
     list-style: none;
 }
@@ -121,6 +112,25 @@ iframe{
     margin: 20px 0;
 }
 
+
+/* Styling for Google Maps page */
+#map {
+    height: 1000px;
+    width: 100%;
+}
+
+/* Styling for Image Slider */
+.slider-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .slide {
+    min-width: 100%;
+  }
 
 /* Media queries for mobile devices */
 
