@@ -1,0 +1,113 @@
+
+
+body,h1,h2,h3,p,ul,ol,li,a,img,video{
+    margin: 0;
+    padding: 0;
+}
+
+/* Some styling for body element */
+body{
+    font-family: 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* common style for all pages */
+#header{
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#header nav ul{
+    list-style: none;
+}
+
+#header nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#main_section{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main_section .title{
+    color: #0077cc;
+}
+
+#main_section .section{
+    margin-bottom: 30px;
+}
+#main_section .section h2{
+    color: #0077cc;
+    margin-top: 20px;
+}
+
+#main_section .section section p{
+    margin-bottom: 10px;
+}
+
+#main_section .section ol, ul{
+    margin-left: 20px;
+}
+
+a{
+    color: #cc0055;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #004466;
+}
+
+footer{
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/* Styling for index page */
+#Skills ol{
+    list-style: none;
+}
+
+#Skills ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#Skills li{
+    margin-bottom: 5px;
+    color: #555;
+}
+
+img{
+    max-width: 200px;
+    height: 200px;
+    display: inline;
+    margin: 20px 0;
+}
+iframe{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin: 20px 0;
+}
