@@ -85,6 +85,11 @@ footer{
     text-align: center;
 }
 
+#map {
+    height: 1000px;
+    width: 100%;
+}
+
 
 
 
@@ -168,3 +173,5 @@ iframe{
         font-size: 12px;
     }
 }
+
+
